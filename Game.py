@@ -1,7 +1,7 @@
 import random
 
 def number_guessing_game():
-    # Computer randomly chooses a number between 1 and 100
+    # Computer randomly chooses a number between 1 and 20
     number_to_guess = random.randint(1, 20)
     # Number of attempts allowed
     attempts = 3
